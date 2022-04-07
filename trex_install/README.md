@@ -1,5 +1,8 @@
 # INSTALL AND LAUNCH_TREX
 
+## Information on t_rex
+https://t-rex.tileserver.ch/doc/serve/#serving-vector-tiles
+
 ## Install t_rex
 
         sudo apt-get update
