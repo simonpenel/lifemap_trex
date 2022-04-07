@@ -29,14 +29,15 @@ sudo ln -s  /usr/bin/python3 /usr/bin/python
 
 ```
 
-Run the script
-
 Install necessary modules
 
-  sudo apt-get install pip
-  sudo pip install numpy
-  sudo pip install ete3
-  sudo pip install psycopg2
+        sudo apt-get install pip
+        sudo pip install numpy
+        sudo pip install ete3
+        sudo pip install psycopg2
+
+Run the script
+
 
 ```bash
 sudo ./make_tree.py --lang EN --simplify True
