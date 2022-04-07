@@ -1,14 +1,13 @@
 # Configuration of a server for Lifemap
 
-This repository allows the deployment of Lifemap on a new server (tested on Ubuntu Server 18.04). 
+This repository allows the deployment of Lifemap on a new server (tested on Ubuntu Server 20.04). 
 You must to be sudoer to use this pipeline. 
 It is a simple 5-steps process: 
 
-1. Clone this repository locally and enter in it
+1. Enter the directory
 
 ```bash
-git clone https://github.com/damiendevienne/Lifemap_clean.git
-cd Lifemap_clean
+cd lifemap_install
 ```
 2. Execute the configuration script, with sudo
 
@@ -23,12 +22,14 @@ sudo ./update_server.sh
 ```
 4. Download and build the tree
 
-Au besoin faire un lien pour l'exec python
+If needed, create a sumbolic link for python
 
 ```bash
 sudo ln -s  /usr/bin/python3 /usr/bin/python
 
 ```
+
+Run the script
 
 
 ```bash
