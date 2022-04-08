@@ -6,6 +6,8 @@
 
 ## Pour finir, configurer ngnix:
 
+`sudo apt-get install nginx`
+
 modifier les 2 fichiers:
 
 - /etc/nginx/sites-available/default
@@ -25,4 +27,4 @@ Contenu des 2 fichiers:
 
 Et relancer:
 
-`sudo service apache2 restart`
+`sudo service nginx restart`
